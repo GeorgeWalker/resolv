@@ -4,7 +4,7 @@ FROM dotnet-20-rhel7:latest
 
 USER 0
 
-RUN echo "api.news.gov.bc.ca  142.34.142.141" > /etc/resolv.conf
+RUN echo "api.news.gov.bc.ca  142.34.142.141" > /etc/hosts
 
 
 USER 1001
